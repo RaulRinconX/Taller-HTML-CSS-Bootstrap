@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Grupo Musical Favorito</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <style>
+    
+    .container {
+      margin-top: 50px;
+      width: 100000px;
+    }
+
+    .container p {
+      font-size: 1.2rem;
+    }
+
+    .img-fluid {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .list-group {
+      margin-top: 50px;
+    }
+
+    .list-group-item {
+      font-size: 1.2rem;
+    }
+
+    .form-group {
+      margin-top: 50px;
+    }
+
+    .form-control {
+      font-size: 1.2rem;
+    }
+
+    .col-md-6{
+        margin-top: 50px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col-md-3{
+        margin-top: 50px;
+        height: 300px;
+        display: flex;
+        align-items: right;
+        justify-content: right;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand mx-auto" href="#">El chicharrón</a>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="image-container">
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/VJOPTOPEKRGKBL32ZNK36PFAHU.jpg" alt="Imagen de mi grupo musical favorito" class="img-fluid">
+      </div>
+    </div>
+      <div class="col-md-6">
+        <form style="width: 800px">
+        <p> El chicharrón es un alimento que se obtiene al freír la piel del cerdo en su propia grasa hasta que quede crujiente y dorada. También puede incluir pequeños trozos de carne adheridos a la piel. El chicharrón es un alimento popular en muchos países de Latinoamérica y España, y a menudo se sirve como un aperitivo o se utiliza como ingrediente en platos como tacos, sopas y guisos. Es una comida alta en grasas y calorías, por lo que se recomienda consumirla con moderación. Si quieres saber más sobre el chicharrón, visita:</p>
+        <p><a href="https://www.mycolombianrecipes.com/es/chicharron-colombiano/">www.chicharron.com</a>.</p>
+      </form>
+      </div>
+    </div>
+    <ul class="list-group"  style="margin-bottom: 30px;">
+      <p>  Opciones de chicharron </p>
+      <li class="list-group-item">1. chicharron español</li>
+      <li class="list-group-item">2. chicharrón tostado</li>
+      <li class="list-group-item">3. chicharron de bolsa</li>
+      <li class="list-group-item">4. chicharron carnudo</li>
+    </ul>
+      <div class="col-md-3" style="margin-top: 10px;">
+        <form style="height: 500px;">
+          <p> Suscribete para obtener mas informacion: </p>
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <button type="submit" class="btn btn-primary">Suscribirse</button> 
+        </form>
+    </div>
